@@ -1,0 +1,14 @@
+# Pytorch index URL
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# PyTorch
+torch
+
+# Hugging Face (for datasets and tokenizers only - transformers is installed to have auto tokenizers)
+transformers
+datasets
+
+# Hub interface - for downloading models
+joblib
+huggingface_hub[hf_transfer]
+
